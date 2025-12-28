@@ -12,12 +12,13 @@ import PostWeddingSection from "../components/PostWeddingSection"
 import BottomNavigation from "../components/BottomNavigation"
 import { useLanguage } from "../contexts/LanguageContext"
 import { t } from "../utils/translations"
+import AboutUs from "@/components/AboutUs"
+
 
 export default function WeddingLandingPage() {
   const [isVisible, setIsVisible] = useState({})
   const { language } = useLanguage()
 
-  // Intersection Observer for animations
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -45,6 +46,8 @@ export default function WeddingLandingPage() {
       {/* Section 1: Hero with Carousel and Countdown */}
       <HeroCarousel />
 
+      <AboutUs />
+
       {/* Section 2: Our Love Story */}
       <OurLoveStory />
 
@@ -61,12 +64,12 @@ export default function WeddingLandingPage() {
       <PreWeddingSection />
 
       {/* Section 7: Post-Wedding Section */}
-      <PostWeddingSection />
+      {/* <PostWeddingSection /> */}
 
       {/* Section 8: Event Details */}
       <EventDetails />
 
-      <section id="venue" className="py-20 bg-white">
+      {/* <section id="venue" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center mb-16 ${isVisible.venue ? "animate-fade-in-up" : "opacity-0"}`}>
             <h2 className="font-serif text-6xl font-bold text-red-600 mb-4">{t("venueTitle", language)}</h2>
@@ -107,9 +110,9 @@ export default function WeddingLandingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="rsvp" className="py-20 bg-red-50">
+      {/* <section id="rsvp" className="py-20 bg-red-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center mb-16 ${isVisible.rsvp ? "animate-fade-in-up" : "opacity-0"}`}>
             <h2 className="font-serif text-6xl font-bold text-red-600 mb-4">{t("rsvpTitle", language)}</h2>
@@ -196,7 +199,7 @@ export default function WeddingLandingPage() {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="guestbook" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -304,8 +307,8 @@ export default function WeddingLandingPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <p className="text-sm opacity-75">
               {language === "bn"
-                ? "© ২০২৪ প্রিয়া ও অর্জুনের বিবাহ। আমাদের বিশেষ দিনের জন্য ❤️ দিয়ে তৈরি।"
-                : "© 2024 Priya & Arjun Wedding. Made with ❤️ for our special day."}
+                ? "© ২০২5 প্রিয়া ও অর্জুনের বিবাহ। আমাদের বিশেষ দিনের জন্য ❤️ দিয়ে তৈরি।"
+                : "© 2025 Yousub & Opia Wedding. Made with ❤️ for our special day."}
             </p>
           </div>
         </div>

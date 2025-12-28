@@ -26,7 +26,7 @@ const dancingScript = Dancing_Script({
 })
 
 export const metadata = {
-  title: "Priya & Arjun - Our Wedding Celebration",
+  title: "Yousub & Opia - Our Wedding Celebration",
   description: "Join us as we celebrate our love story in traditional Indian style and begin our journey together",
   generator: "v0.app",
 }

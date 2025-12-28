@@ -13,51 +13,53 @@ export default function HeroCarousel() {
     {
       src: "/romantic-couple-engagement-photo-in-golden-hour-li.jpg",
       title: {
-        en: "Our Engagement",
-        bn: "আমাদের বাগদান",
+        en: "Marriage Registry",
+        bn: "বিবাহ নিবন্ধন",
       },
-      date: "December 15, 2023",
+      heroDate: "14 April 2025",
       description: {
-        en: "The moment we said yes to forever",
-        bn: "যে মুহূর্তে আমরা চিরকালের জন্য হ্যাঁ বলেছিলাম",
+        en: "Legally bound by promise, emotionally tied by love",
+        bn: "আইনি অঙ্গীকারে বাঁধা, ভালোবাসার বন্ধনে একসূত্রে গাঁথা",
       },
     },
     {
       src: "/couple-dancing-at-sunset-beach-romantic-silhouette.jpg",
       title: {
         en: "Pre-Wedding Celebration",
-        bn: "প্রি-ওয়েডিং উৎসব",
+        bn: "প্রি-ওয়েডিং উদযাপন",
       },
-      date: "March 10, 2024",
+      heroDate: "26 December 2025",
       description: {
-        en: "Dancing into our future together",
-        bn: "একসাথে আমাদের ভবিষ্যতে নৃত্য করা",
+        en: "A joyful pause before our forever begins",
+        bn: "চিরকালের যাত্রা শুরু হওয়ার আগে আনন্দের এক মুহূর্ত",
       },
     },
+
     {
       src: "/wedding-rings-on-elegant-white-flowers-close-up.jpg",
       title: {
-        en: "The Big Day",
-        bn: "বিশেষ দিন",
+        en: "Subho Bibaho",
+        bn: "শুভ বিবাহ",
       },
-      date: "September 15, 2024",
+      heroDate: "29 December 2025",
       description: {
-        en: "When two hearts become one",
-        bn: "যখন দুটি হৃদয় এক হয়ে যায়",
+        en: "Two souls, one promise, a lifetime of togetherness begins",
+        bn: "দুটি আত্মা, এক অঙ্গীকার—আজ থেকে শুরু একসাথে সারাজীবনের পথচলা",
       },
     },
     {
       src: "/bride-and-groom-laughing-together-candid-moment.jpg",
       title: {
-        en: "Post-Wedding Celebration",
-        bn: "পোস্ট-ওয়েডিং উৎসব",
+        en: "Bodhuboron",
+        bn: "বধূবরণ",
       },
-      date: "September 16, 2024",
+      heroDate: "30 December 2025",
       description: {
-        en: "Celebrating our new beginning",
-        bn: "আমাদের নতুন সূচনা উৎসব",
+        en: "Welcoming love, laughter, and a beautiful new chapter",
+        bn: "ভালোবাসা, হাসি আর নতুন জীবনের সুন্দর সূচনাকে স্বাগত",
       },
     },
+
   ]
 
   // Auto-advance carousel
@@ -82,9 +84,8 @@ export default function HeroCarousel() {
         {carouselImages.map((image, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-all duration-1000 ${
-              index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"
-            }`}
+            className={`absolute inset-0 transition-all duration-1000 ${index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"
+              }`}
           >
             <div className="w-full h-full relative overflow-hidden">
               <img
@@ -100,13 +101,13 @@ export default function HeroCarousel() {
       </div>
 
       <div className="absolute top-4 right-4 md:top-8 md:right-8 z-30">
-        <CountdownTimer targetDate="2024-12-15T16:00:00" />
+        <CountdownTimer targetDate="2025-12-30T00:00:00+05:30" />
       </div>
 
       {/* Carousel Content */}
       <div className="absolute inset-0 flex items-center justify-center text-center text-white z-10">
         <div className="max-w-5xl px-4 animate-fade-in-up">
-          <h1 className="font-dancing text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-heartbeat text-gradient-red bg-clip-text drop-shadow-2xl">
+          <h1 className="font-dancing text-red-500 text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-heartbeat text-gradient-red bg-clip-text drop-shadow-2xl">
             {t("heroTitle", language)}
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-4 opacity-90 font-medium drop-shadow-lg font-serif">
@@ -120,7 +121,9 @@ export default function HeroCarousel() {
             <h3 className="font-serif text-xl md:text-2xl font-semibold mb-3 text-red-200">
               {carouselImages[currentSlide].title[language]}
             </h3>
-            <p className="text-base md:text-lg font-medium">{t("heroDate", language)}</p>
+            <p className="text-base md:text-lg font-medium">
+              {carouselImages[currentSlide].heroDate}
+            </p>
             <p className="text-sm md:text-base opacity-90 mt-2">{t("heroVenue", language)}</p>
           </div>
         </div>
@@ -149,9 +152,8 @@ export default function HeroCarousel() {
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-2 h-2 md:w-4 md:h-4 rounded-full transition-all duration-300 ${
-              index === currentSlide ? "bg-red-500 scale-125" : "bg-white/50 hover:bg-white/75"
-            }`}
+            className={`w-2 h-2 md:w-4 md:h-4 rounded-full transition-all duration-300 ${index === currentSlide ? "bg-red-500 scale-125" : "bg-white/50 hover:bg-white/75"
+              }`}
           />
         ))}
       </div>

@@ -12,7 +12,7 @@ export default function EventDetails() {
       title: "Ceremony",
       image: "/indian-wedding-ceremony-bride-bouquet.jpg",
       schedule: {
-        date: "15 Sep 2024",
+        date: "15 Sep  2025   ",
         time: "10am-12pm",
         location: "Grand Palace Hotel, Mumbai",
         address: "Marine Drive, Mumbai 400001",
@@ -24,7 +24,7 @@ export default function EventDetails() {
       title: "Reception",
       image: "/elegant-crystal-chandelier-wedding-decoration.jpg",
       schedule: {
-        date: "15 Sep 2024",
+        date: "15 Sep  2025   ",
         time: "7pm-11pm",
         location: "Taj Palace Ballroom",
         address: "Colaba, Mumbai 400005",
@@ -36,7 +36,7 @@ export default function EventDetails() {
       title: "Party",
       image: "/indian-wedding-party-celebration-friends-dancing.jpg",
       schedule: {
-        date: "16 Sep 2024",
+        date: "16 Sep  2025   ",
         time: "8pm-2am",
         location: "Rooftop Terrace",
         address: "Bandra West, Mumbai 400050",
@@ -125,11 +125,11 @@ export default function EventDetails() {
                         <span className="text-sm">{event.schedule.dressCode}</span>
                       </div>
                     </div>
-                    <div className="text-center mt-4">
+                    {/* <div className="text-center mt-4">
                       <button className="text-white underline hover:text-red-200 transition-colors text-sm">
                         View on Map
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -137,13 +137,12 @@ export default function EventDetails() {
           ))}
         </div>
 
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <h3 className="font-serif text-4xl font-bold text-red-600 text-center mb-12">
             Pre-Wedding & Post-Wedding Events
           </h3>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Pre-Wedding Events */}
             <div className={`${isVisible ? "animate-slide-in-left" : "opacity-0"}`}>
               <h4 className="font-serif text-2xl font-bold text-red-600 mb-6 text-center">Pre-Wedding Celebrations</h4>
               <div className="grid grid-cols-2 gap-4 mb-6">
@@ -172,21 +171,20 @@ export default function EventDetails() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="font-semibold">Mehendi Ceremony:</span>
-                    <span>September 13, 2024</span>
+                    <span>September 13,  2025   </span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Sangeet Night:</span>
-                    <span>September 14, 2024</span>
+                    <span>September 14,  2025   </span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Haldi Ceremony:</span>
-                    <span>September 15, 2024 (Morning)</span>
+                    <span>September 15, 2025(Morning)</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Post-Wedding Events */}
             <div className={`${isVisible ? "animate-slide-in-right" : "opacity-0"}`}>
               <h4 className="font-serif text-2xl font-bold text-red-600 mb-6 text-center">Post-Wedding Celebrations</h4>
               <div className="grid grid-cols-2 gap-4 mb-6">
@@ -215,21 +213,21 @@ export default function EventDetails() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="font-semibold">Reception Dinner:</span>
-                    <span>September 15, 2024 (Evening)</span>
+                    <span>September 15, 2025(Evening)</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Vidaai Ceremony:</span>
-                    <span>September 16, 2024</span>
+                    <span>September 16,  2025   </span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Griha Pravesh:</span>
-                    <span>September 17, 2024</span>
+                    <span>September 17,  2025   </span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

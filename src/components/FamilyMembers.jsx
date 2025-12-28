@@ -184,7 +184,7 @@ export default function FamilyMembers() {
             <div className="relative inline-block">
               <img
                 src="/bride-and-groom-laughing-together-candid-moment.jpg"
-                alt="Priya & Arjun"
+                alt="Yousub & Opia"
                 className="w-full max-w-md mx-auto h-80 md:h-96 object-cover rounded-2xl shadow-2xl border-4 border-red-300 hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white px-8 py-3 rounded-full shadow-lg border-2 border-red-200">

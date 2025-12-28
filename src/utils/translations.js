@@ -16,8 +16,8 @@ export const translations = {
     // Hero Section
     heroTitle: "Yousub & Opia",
     heroSubtitle: "Together Forever",
-    heroDate: "December 15, 2024",
-    heroVenue: "Royal Garden Palace, Mumbai",
+    heroDate: "December 29, 2025",
+    heroVenue: "Our Own House Premises, Cooch Behar",
     daysLeft: "Days",
     hoursLeft: "Hours",
     minutesLeft: "Minutes",
@@ -27,14 +27,24 @@ export const translations = {
     // About Us Section
     aboutUsTitle: "About Us",
     aboutUsSubtitle: "Get to know the happy couple",
+
     brideDetails: "Bride Details",
     groomDetails: "Groom Details",
+
     brideName: "Opia",
     groomName: "Yousub",
+
+    brideEducation: "B.A. in English (Hons), Auxiliary Nurse Midwifery (ANM)",
+    brideProfession: "Health Assistant Female (ANM)",
+
+    groomEducation: "M.Sc. in Computer Science, Cyber Security Course",
+    groomProfession: "Software Engineer",
+
     brideDescription:
-      "A beautiful soul with a passion for art and music. Opia brings joy and creativity to everything she touches. Her warm heart and infectious smile light up every room she enters. She believes in love, kindness, and the power of dreams coming true.",
+      "A beautiful soul with a passion for art and music. Opia brings warmth, care, and creativity to everything she does. With a compassionate heart and a gentle smile, she believes in kindness, service to others, and the beauty of meaningful connections.",
+
     groomDescription:
-      "A dedicated professional with a love for adventure and family. Yousub is known for his gentle nature and strong values. He finds happiness in simple moments and believes that true love is the greatest blessing in life.",
+      "A dedicated professional with a strong foundation in technology and values. Yousub is known for his calm nature, integrity, and love for family. He believes that honesty, hard work, and love together create a truly fulfilling life.",
 
     // Love Story
     loveStoryTitle: "Our Love Story",
@@ -157,8 +167,8 @@ export const translations = {
     // Hero Section
     heroTitle: "ইউসুব ও ওপিয়া",
     heroSubtitle: "চিরকালের জন্য একসাথে",
-    heroDate: "১৫ ডিসেম্বর, ২০২৪",
-    heroVenue: "রয়েল গার্ডেন প্যালেস, মুম্বাই",
+    heroDate: "২৯ ডিসেম্বর, ২০২৫",
+    heroVenue: "আমাদের নিজস্ব বাড়ির প্রাঙ্গণে, কুচবিহার",
     daysLeft: "দিন",
     hoursLeft: "ঘন্টা",
     minutesLeft: "মিনিট",
@@ -168,14 +178,24 @@ export const translations = {
     // About Us Section
     aboutUsTitle: "আমাদের সম্পর্কে",
     aboutUsSubtitle: "সুখী দম্পতিকে জানুন",
+
     brideDetails: "কনের বিবরণ",
     groomDetails: "বরের বিবরণ",
+
     brideName: "ওপিয়া",
     groomName: "ইউসুব",
+
+    brideEducation: "বি.এ. (ইংরেজি অনার্স), সহায়ক নার্স মিডওয়াইফারি (ANM) কোর্স",
+    brideProfession: "স্বাস্থ্য সহায়িকা (ANM)",
+
+    groomEducation: "এম.এসসি. (কম্পিউটার সায়েন্স), সাইবার সিকিউরিটি কোর্স",
+    groomProfession: "সফটওয়্যার ইঞ্জিনিয়ার",
+
     brideDescription:
-      "শিল্প ও সঙ্গীতের প্রতি অনুরাগী একটি সুন্দর আত্মা। ওপিয়া তার স্পর্শে সবকিছুতে আনন্দ ও সৃজনশীলতা নিয়ে আসে। তার উষ্ণ হৃদয় ও সংক্রামক হাসি প্রতিটি ঘরকে আলোকিত করে। তিনি ভালোবাসা, দয়া এবং স্বপ্ন সত্যি হওয়ার শক্তিতে বিশ্বাস করেন।",
+      "শিল্প ও সঙ্গীতের প্রতি অনুরাগী একটি সুন্দর আত্মা। ওপিয়া তার স্পর্শে সবকিছুতে আনন্দ ও সৃজনশীলতা নিয়ে আসে। তার উষ্ণ হৃদয় ও মধুর হাসি প্রতিটি পরিবেশকে আলোকিত করে। তিনি ভালোবাসা, দয়া এবং মানুষের সেবায় বিশ্বাসী।",
+
     groomDescription:
-      "অ্যাডভেঞ্চার ও পরিবারের প্রতি ভালোবাসা সহ একজন নিবেদিতপ্রাণ পেশাদার। ইউসুব তার কোমল স্বভাব ও দৃঢ় মূল্যবোধের জন্য পরিচিত। তিনি সাধারণ মুহূর্তগুলিতে সুখ খুঁজে পান এবং বিশ্বাস করেন যে সত্যিকারের ভালোবাসা জীবনের সবচেয়ে বড় আশীর্বাদ।",
+      "প্রযুক্তি ও পরিবারের প্রতি সমানভাবে নিবেদিত একজন পেশাদার। ইউসুব তার বিনয়ী স্বভাব, দৃঢ় মূল্যবোধ ও দায়িত্বশীল মনোভাবের জন্য পরিচিত। তিনি বিশ্বাস করেন যে পরিশ্রম, সততা এবং ভালোবাসাই একটি সুন্দর জীবনের মূল ভিত্তি।",
 
     // Love Story
     loveStoryTitle: "আমাদের প্রেমের গল্প",
