@@ -28,25 +28,25 @@ export default function OurLoveStory() {
 
   const storyEvents = [
     {
-      date: "26 Jan 2018",
+      date: "09 Jan 2016",
       titleKey: "firstMeet",
       descKey: "firstMeetDesc",
       image: "/romantic-couple-sitting-together-in-coffee-shop-la.jpg",
     },
     {
-      date: "26 Jan 2018",
+      date: "26 Aug 2020",
       titleKey: "firstDate",
       descKey: "firstDateDesc",
       image: "/romantic-dinner-date-candlelight-restaurant.jpg",
     },
     {
-      date: "26 Jan 2018",
+      date: "13 Oct 2021",
       titleKey: "proposal",
       descKey: "proposalDesc",
       image: "/wedding-rings-on-elegant-white-flowers-close-up.jpg",
     },
     {
-      date: "26 Jan 2018",
+      date: "14 April 2025",
       titleKey: "engagement",
       descKey: "engagementDesc",
       image: "/romantic-couple-engagement-photo-in-golden-hour-li.jpg",
